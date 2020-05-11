@@ -10,8 +10,9 @@ Cross-platform and open-source overlay for rapid communication and information w
 
 ## Dependencies
 
-If compiling from source (as opposed to binaries) the most current list of dependencies can be found below:
+If compiling from source (as opposed to binaries) the most current list of dependencies can be found below (most can be installed via pip):
 - Python 3.8.3rc1
 - PyQt5
+- qtmodern
 
 That's a lot of 🥧!
