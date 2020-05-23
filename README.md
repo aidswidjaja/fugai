@@ -1,17 +1,26 @@
 # Fugai
-Cross-platform and open-source overlay for rapid communication and information with minimal performance impact for macOS and Linux and maybe Windows.
+## Cross-platform and open-source overlay for rapid communication and information with minimal performance impact for macOS and Windows and _maybe_ Linux.
+
+- Get rapid access to utilities and interfaces without impacting your computer's performance
+- Customise Fugai's window positioning, background, and settings to your own liking
+- Get access to Steam, Chrome, Teamspeak and Discord without breaking your game
+- EULA friendly - no hacks involved
+- Available for macOS, Windows, and Linux window managers that support compositing
+- Designed for single-monitor setups but works on multi-monitor setups too
+- Free and open-source - modify the software and contribute code on [GitHub](https://github.com/nettomo/overlay)
 
 ## Design Principles
 
-- Lightweight - there shouldn't be a noticeable impact when gaming or running other resource-heavy programs.
-- Easy to use - a user shouldn't have to be experienced in Python, window managers, calculus, etc. to get started with Pyramid Overlay.
+- Lightweight - there shouldn't be a noticeable impact when gaming or running other resource-heavy programs
+- Easy to use - a user shouldn't have to be experienced in Python, PySide, window managers, X11, DirectX, calculus, integrals, polynomials, etc. to get started with Fugai
 - Do what works, not what's right - no solution is overkill. That being said...
-- Modular - code and end user UI should be flexible and versatile. Don't dig yourself into a hole with your own code.
+- Modular - code and end user UI should be flexible and versatile. Don't dig yourself into a hole with your own code
+- Functional not aesthetic - Fluent Design animations look cool and everything but the codebase for Fugai is designed to be functional first - we're leaving pretty UI up to any forkers who want to use Fugai as a base for their own projects. Feel free to submit pull requests of any aesthetic improvements though - but as an end user don't expect it. 
 
 ## Dependencies
 
 If compiling from source (as opposed to binaries) the most current list of dependencies can be found below (most can be installed via pip):
-- Python 3.8.3rc1
+- Python 3.8.3rc1 and all its included packages (e.g sys, datetime)
 - PyQt5
 - qtmodern
 

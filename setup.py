@@ -5,6 +5,10 @@
 #
 # Learn more about it at: http://github.com/fabiommendes/python-boilerplate/
 
+"""
+Still working on this -Adrian
+"""
+
 import os
 
 from setuptools import setup, find_packages
