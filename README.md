@@ -1,13 +1,15 @@
-# Fugai
+# Fugai – an open source alternative to Steam Overlay, Discord Overlay and TeamSpeak (Overwolf) Overlay
 ## Cross-platform and open-source overlay for rapid communication and information with minimal performance impact for macOS and Windows and _maybe_ Linux.
 
 - Get rapid access to utilities and interfaces without impacting your computer's performance
 - Customise Fugai's window positioning, background, and settings to your own liking
-- Get access to Steam, Chrome, Teamspeak and Discord without breaking your game
+- Get access to Steam, Chrome, Teamspeak and Discord without Alt-Tabbing out of your game
 - EULA friendly - no hacks involved
 - Available for macOS, Windows, and Linux window managers that support compositing
 - Designed for single-monitor setups but works on multi-monitor setups too
-- Free and open-source - modify the software and contribute code on [GitHub](https://github.com/nettomo/overlay)
+- Free and open-source - fork/modify the software and contribute code on [GitHub](https://github.com/nettomo/overlay)
+
+***
 
 ## Design Principles
 
@@ -25,3 +27,12 @@ If compiling from source (as opposed to binaries) the most current list of depen
 - qtmodern
 
 That's a lot of 🥧!
+
+***
+
+## License
+
+2020 (c) Adrian Widjaja
+MIT License (see LICENSE.md)
+
+Fugai was built by the Nettomo project. 100% free and open source under the MIT License.
