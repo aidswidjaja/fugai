@@ -4,17 +4,14 @@ from PyQt5 import QtGui, QtCore, QtWidgets
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
-print("Success! import PyQt5")
-from time import strftime
-import qtmodern.styles
-import qtmodern.windows
+print("[Success!] main.py import PyQt5")
 import sys
 from fugai import *
-from localtime import clockView
-print("Success! import other dependencies.")
+from clockview import clockView
+print("[Success!] main.py import other dependencies.")
 
 app = QApplication(sys.argv)
-print("Success! sys.argv")
+print("[Success!] main.py sys.argv")
 
 class master(QMainWindow):
     def __init__(self, *args, **kwargs):
@@ -29,7 +26,6 @@ class master(QMainWindow):
         self.setFocusPolicy(Qt.NoFocus)
         self.setStyleSheet("background-color: "+ background_colour +"; background-image: url("+ background_image +"); background-repeat: no-repeat; background-position: center;")
         self.showMaximized()
-
 
 if __name__ == '__main__':
     master = master()

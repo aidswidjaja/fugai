@@ -1,11 +1,15 @@
 """
 Configuration file for Fugai Overlay (part of the Nettomo project).
 
-NOTE: It is strongly recommended that values are provided for these variables. 
+NOTE: It is strongly recommended that values are provided for all these variables. 
 Not defining variables could cause a fatal error. Those notated as REQUIRED VALUE will
-cause a fatal error if left undefined.
+cause definietly a fatal error if left undefined.
 
-(c) 2020 Adrian Widjaja
+    NameError: name 'variable' is not defined
+
+^ an example of a warning you might see if a variable is left undefined
+
+(c) 2020 Nettomo Project Contributors
 https://github.com/nettomo/fugai
 License information available in LICENSE.md
 """
@@ -17,17 +21,26 @@ background_image = "overlay/src/res/default.png"
 
 # Change the background colour. Colour value must be a hex code. 
 # Default value = "#002040"
+# REQUIRED VALUE
 background_colour = "#002040"
 
 # Change the opacity of the background.
 # 0.0 –-> 1.0 (greater value = less transparency) 
 # Default value = 0.8
+# REQUIRED VALUE
 opacity = 0.8
 
-# Change the font used throughout Fugai. 
+# Change the font used in clockView.
 # Defualt value = 'Helvetica'
-global_font = 'Helvetica'
+# REQUIRED VALUE
+clock_font = 'Helvetica'
 
 # Change the font size used in clockView.
 # Default value = '80'
+# REQUIRED VALUE
 clock_font_size = 80
+
+# Change the font colour used in clockView.
+# Default value = "white"
+# REQUIRED VALUE
+clock_font_colour = "white"
