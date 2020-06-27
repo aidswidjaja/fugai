@@ -30,8 +30,8 @@ setup(
     # Basic info
     name='overlay',
     version=version,
-    author='Adrian Widjaja',
-    author_email='adrian.marcus.widjaja@gmail.com',
+    author='aidswidjaja',
+    author_email='noreply@adrian.id.au',
     url='https://github.com/nettomo/overlay',
     description='Cross-platform and open-source overlay for rapid communication and information with minimal performance impact for macOS and Linux and maybe Windows.',
     long_description=open('README.md').read(),

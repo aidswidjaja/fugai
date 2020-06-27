@@ -9,9 +9,24 @@ cause definietly a fatal error if left undefined.
 
 ^ an example of a warning you might see if a variable is left undefined
 
-(c) 2020 Nettomo Project Contributors
+***
+
+2020 (c) aidswidjaja and other contributors.
 https://github.com/nettomo/fugai
-License information available in LICENSE.md
+https://aidswidjaja.github.io
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the MIT License as originally published by
+the Massachusetts Institute of Technology and currently maintained by
+the Open Source Initiative.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+MIT License for more details.
+
+You should have received a copy of the MIT License
+along with this program.  If not, see <https://opensource.org/licenses/MIT>.
 """
 # Change the background image. 
 # Image must be a Qt supported format. https://doc.qt.io/qt-5/qtimageformats-index.html
