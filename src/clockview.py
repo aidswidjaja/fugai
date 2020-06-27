@@ -46,6 +46,18 @@ class clockView(QWidget): # H/t https://www.geeksforgeeks.org/pyqt5-create-a-dig
         delta = QPoint (event.globalPos() - self.oldPos)
         self.move(self.x() + delta.x(), self.y() + delta.y())
         self.oldPos = event.globalPos()
+
+    def closeEvent(self, event):
+        self.settings = QSettings("Nettomo", "Fugai")
+        self.settings.setValue("geometry", saveGeometry())
+        self.settings.setValue("windowState", saveState())
+        self.closeEvent(event)
+
+    def readSettings(self):
+        self.settings = QSettings("Nettomo", "Fugai")
+        self.settings = QSettings("Nettomo", "Fugai")
+        self.settings.value("geometry")
+        self.restoreGeometry(geometry)
     
     # H/t https://stackoverflow.com/a/37718648/6299634
     # Credit: Elad Joseph

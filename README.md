@@ -10,7 +10,7 @@
 - Get access to Steam, Chrome, Teamspeak and Discord without Alt-Tabbing out of your game
 - EULA friendly - no hacks involved
 - Available for macOS, Windows, and Linux window managers that support compositing
-- Designed for single-monitor setups but works on multi-monitor setups too
+- Designed for single-monitor setups but works on multi-monitor setups too (with a few bumps)
 - Free and open-source - fork/modify the software and contribute code on [GitHub](https://github.com/nettomo/overlay)
 
 ***
@@ -31,6 +31,10 @@ If compiling from source (as opposed to binaries) the most current list of depen
 - [qtmodern](https://github.com/gmarull/qtmodern)
 
 That's a lot of 🥧!
+
+## Why is there a random screen shot of your desktop in the Git repo I cloned?
+
+idek I must have accidentally put it in but I'll keep it there as a nice easter egg lol.
 
 ***
 
