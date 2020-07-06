@@ -1,9 +1,9 @@
 # Fugai
 ## an open source alternative to Steam Overlay, Discord Overlay and TeamSpeak (Overwolf) Overlay
 
-The Fugai application is going to serve as a codebase for a few other projects, most notably Nettomo. While it works as a standalone app, it may be buggy, unmaintained, and additional features might be implemented elsewhere. While using this repo directly isn't recommended for end user use, it should work out fine.
+The Fugai application is going to serve as a codebase for a few other projects. While it works as a standalone app, it may be buggy, unmaintained, and additional features might be implemented elsewhere. While using this repo directly isn't recommended for end user use, it should work out fine.
 
-As of 27 June 2020, project development continues at an extremely slow pace. It's like, barely being kept alive. The idea isn't to have a working product so soon, but rather just to have a codebase I can work on for Nettomo and other dependents by the time those projects are ready :D
+As of 27 June 2020, project development continues at an extremely slow pace. It's like, barely being kept alive. The idea isn't to have a working product so soon, but rather just to have a codebase I can work on for things and other dependents by the time those projects are ready :D
 
 ### Roadmap:
 - [Bug] Fix window flags
@@ -21,7 +21,7 @@ As of 27 June 2020, project development continues at an extremely slow pace. It'
 - EULA friendly - no hacks involved
 - Available for macOS, Windows, and Linux window managers that support compositing
 - Designed for single-monitor setups but works on multi-monitor setups too (with a few bumps tho)
-- Free and open-source - fork/modify the software and contribute code on [GitHub](https://github.com/nettomo/overlay)
+- Free and open-source - fork/modify the software and contribute code on [GitHub](https://github.com/aidswidjaja/fugai)
 
 ***
 
@@ -60,7 +60,7 @@ Except where otherwise stated:
 MIT License (see LICENSE.md)
 ```
 
-Fugai was built by the Nettomo project. 100% free and open source under the MIT License.
+100% free and open source under the MIT License.
 
 Thanks to the numerous people who've shared their knowledge online (you're credited as comments in the code). 
 

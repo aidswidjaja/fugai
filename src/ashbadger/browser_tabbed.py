@@ -155,12 +155,12 @@ class webMainWindow(QMainWindow):
         help_menu.addAction(about_action)
 
         navigate_mozarella_action = QAction(QIcon(os.path.join('images', 'lifebuoy.png')),
-                                            "Nettomo Project on GitHub", self)
-        navigate_mozarella_action.setStatusTip("Go to the Nettomo Project GitHub organization")
+                                            "aidswidjaja on GitHub", self)
+        navigate_mozarella_action.setStatusTip("Visit aidswidjaja on GitHub")
         navigate_mozarella_action.triggered.connect(self.navigate_mozarella)
         help_menu.addAction(navigate_mozarella_action)
 
-        self.add_new_tab(QUrl('https://github.com/nettomo'), 'Homepage')
+        self.add_new_tab(QUrl('https://github.com/aidswidjaja'), 'Homepage')
 
         self.show()
 
@@ -210,7 +210,7 @@ class webMainWindow(QMainWindow):
         self.setWindowTitle("%s - fugaiWeb" % title)
 
     def navigate_mozarella(self):
-        self.tabs.currentWidget().setUrl(QUrl("https://github.com/nettomo"))
+        self.tabs.currentWidget().setUrl(QUrl("https://github.com/aidswidjaja"))
 
     def about(self):
         dlg = webAboutDialog()

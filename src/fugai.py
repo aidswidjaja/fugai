@@ -1,5 +1,5 @@
 """
-Configuration file for Fugai Overlay (part of the Nettomo project).
+Configuration file for Fugai Overlay
 
 NOTE: It is strongly recommended that values are provided for all these variables. 
 Not defining variables could cause a fatal error. Those notated as REQUIRED VALUE will
@@ -11,8 +11,7 @@ cause definietly a fatal error if left undefined.
 
 ***
 
-2020 (c) aidswidjaja and other contributors.
-https://github.com/nettomo/fugai
+2020 (c) aidswidjaja 
 https://aidswidjaja.github.io
 
 This program is free software: you can redistribute it and/or modify

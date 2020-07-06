@@ -1,6 +1,5 @@
 """
-2020 (c) aidswidjaja and other contributors.
-https://github.com/nettomo/fugai
+2020 (c) aidswidjaja 
 https://aidswidjaja.github.io
 
 This program is free software: you can redistribute it and/or modify
