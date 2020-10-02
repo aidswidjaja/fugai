@@ -3,7 +3,7 @@
 
 The Fugai application is going to serve as a codebase for a few other projects. While it works as a standalone app, it may be buggy, unmaintained, and additional features might be implemented elsewhere. While using this repo directly isn't recommended for end user use, it should work out fine.
 
-As of 27 June 2020, project development continues at an extremely slow pace. It's like, barely being kept alive. The idea isn't to have a working product so soon, but rather just to have a codebase I can work on for things and other dependents by the time those projects are ready :D
+~~As of 27 June 2020, project development continues at an extremely slow pace. It's like, barely being kept alive. The idea isn't to have a working product so soon, but rather just to have a codebase I can work on for things and other dependents by the time those projects are ready :D~~ development hell as of 2 October 2020 :(
 
 ### Roadmap:
 - [Bug] Fix window flags
